@@ -30,7 +30,7 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/2300032935-lab-backend:latest
 
-      # Frontend
+      # Frontend (React)
       - name: Build & Push Frontend Image
         uses: docker/build-push-action@v6
         with:
