@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: alekhyasi/2300032935-LAB-backend:latest  # <-- change this
+          image: alekhyasi/2300032935-lab-backend:latest  # <-- change this
           ports:
             - containerPort: 2000
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: alekhyasi/2300032935-LAB-frontend:latest  # <-- change this
+          image: alekhyasi/2300032935-lab-frontend:latest  # <-- change this
           ports:
             - containerPort: 80
           env:
